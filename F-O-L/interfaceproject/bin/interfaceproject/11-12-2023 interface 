@@ -1,0 +1,37 @@
+Interface
+
+Interface is a java type definition declared by using interface similar to a class
+or interface is medium btw two systems where one system is the client and other is the object with services.
+eg: person switch(interface)fan
+
+interface is a type where methods are by default abstract and public. variables are by default static and final. 
+
+objects cannot be created for interface.
+
+can create reference variable of interface.
+Like, interfacename referencevariablename; 
+
+class can inherit the properties of an interface only by using implements keyword.
+
+interface where the properties are inherited is called super interface.
+properties inherited class is called implemented class.
+
+from one interface to another interface in order to do inherit use extends keyword.
+
+in interface class cannot be inherited, bcos class contains concrete methods.
+
+If class implements an Interface then the Implementation class must override all the abstract methods present in super Interface else the class must be declared as abstract class
+-An interface cannot implements another interface.
+-An interface should only extends another interface.
+-An interface can NEVER inherit or extends from a class not even from Object class
+-A class can implements any number of interfaces.
+-A class can extends ONLY one Superclass but it can implements any number of interfaces.
+-A class can extends and implements at the same time.
+
+
+
+
+
+
+
+

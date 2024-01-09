@@ -1,0 +1,109 @@
+Type casting
+--------------------------------------------------------------
+• Converting one Type to another Type is called is TypeCasting.
+• Converting one Primitive data type value to another Primitive data type value is called as Primitive Casting.
+• TypeCasting is of 2 types
+	Primitive Casting
+	Derived Casting
+• Primitive Casting is of 2 types
+	• Widening
+	• Narrowing
+• Derived Casting is of 2 types
+	• up-casting
+	• down-casting
+	
+Widening Converting lower data type value to Higher Data type value
+	Widening is done implicitly by the compiler.
+	
+Narrowing: Converting higher data type value to lower Data type value. 
+	Narrowing should be done explicitly by the programmer by writting
+
+• casting statement.
+Syntax: (datatype) val/var;
+
+
+• If a method is having Primitive data type argument then for the same method we can pass values which are 
+  lower data type compared to given method argument
+• Even though int and float have same capacity the data is represented in a different format.
+  float is considered as higher datatype.
+• If there are 2 overloaded methods one with lower data type argument and other with higher data type argument,
+  if you pass a lower data type value and call the method compiler will always choose method with lower data type argument.
+• Compared to float and int, float is higher data type and int is lower data type 
+• Even though long and double have same capacity the data is represented in a different format.
+• Compared to double and long, double is higher data type and long is lower data type. 
+• If you store a character value within an integer variable then its unicode value will be stored in the given integer variable.
+
+
+Derived Casting
+	converting one object type to another object type is called derived casting/object casting.
+	
+in order to achieve derived casting derived casting is mandatory.
+
+-converting sub class object to super class object is called upcasting.
+	using upcasting we can only access super class properties
+-converting upcasted reference into a sub class reference is called downcasting.
+	using downcasting we can access both super and sub class properties.
+	
+	
+	
+	
+• Converting one object reference type to another object reference type is called 
+as Derived casting.
+• Converting subclass object reference to superclass object reference is called 
+Upcasting
+• Derived casting is of 2 types
+1. Upcasting
+2. Downcasting
+
+• Upcasting is achieved by storing the address of subclass object into superclass 
+reference variable
+• Any superclass reference variable pointing to subclass object is called as Upcasted 
+reference. 
+• Using an Upcasted reference we can access only properties of superclass in the subclass 
+object and it is impossible to access subclass properties.
+• Converting Upcasted object reference back to subclass object reference is 
+called Downcasting.
+• Using an Downcasted reference we can access properties of superclass and 
+subclas
+
+
+• NOTE : INHERITANCE IS MANDATORY FOR DERIVED CASTING
+
+• what is ClassCastException?
+
+• Whenever we try downcast an upcasted reference to a different class reference which do not 
+contains the properties of given object, then jvm will throw ClassCastException
+
+
+• If a method is having Superclass reference argument then for the same method we can pass all of 
+its Subclass references compared to given method argument
+• If there are 2 overloaded methods one with Super class reference argument and other with 
+Subclass reference argument, if you pass Subclass reference and call the method , compiler
+will always choose method with Subclass reference argument
+
+• instanceof operator compares given object reference with the given class returns true if it contains 
+the given class properties else it returns false..
+• *** If you want to access Parent class properties which is common to all Sub-class then, 
+there is no need of performing any downcasting.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

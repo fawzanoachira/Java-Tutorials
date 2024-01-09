@@ -1,0 +1,22 @@
+garbage collection
+
+remove unwanted objects to free memory for effiecient memory utilization. garbage are called unreferenced objects. apart from c or c++
+jvm automatically removes objects.
+
+finalize method is a method which invoke just before garbage objects are collected.
+
+this method is used to clean up processing.
+
+finalize method is always done by jvm automatically. but if we wanted to do some logic brfore garbage collection,
+
+	inherit finalize method from object class and edit logic in the method.
+	use System.gc() to invoke finalize method.
+
+syntax:- 
+	
+
+gc() method
+
+used to invoke the garbage collector to perform clean up processing.
+
+in order to work Method overriding, there should be inheritance in program.

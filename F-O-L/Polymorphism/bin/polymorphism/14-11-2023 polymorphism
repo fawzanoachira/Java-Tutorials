@@ -1,0 +1,52 @@
+Polymorphism
+
+----------------------------------------------------------------------------------------------------------------
+ it is a greek word. 
+ poly means many and morphism means forms. 
+
+
+• One entity showing different behaviors at different places is called Polymorphism
+
+
+Method BINDING
+-----------------------------Associating or Mapping method caller with methhod implementation
+
+• Polymorphism is of two types
+1. Compile time Polymorphism
+2. Runtime Polymorphism
+
+Compile Time Polymorphism 
+
+• Binding the method declaration to method definition by the compiler at the compile 
+   time based on the arguments is called as compile time Polymorphism.
+
+• Since the binding is done before the execution it is called as early binding.
+
+
+• Once the binding is done it cannot be changed at the Runtime and hence it is also 
+  called as Static Binding
+
+• Method Overloading and Constructor overloading is the best example for Compile time Polymorphism
+
+
+• All static and final methods will get binded during compile time 
+  i.e,during compilation only method will come to know what is its implementation
+  
+Run Time PolyMorphism
+
+• Binding the method declaration to method definition by the JVM at the run time based on 
+  the objects is called as run time Polymorphism
+
+• Once the binding is done it can be changed at the Runtime and hence it is also called 
+  as dynamic Binding.
+
+• Since  the binding is done during execution it is called as late binding
+
+• Method Overriding is the best example for Run time Polymorphism
+• Abstract methods will get binded during run time
+  i.e, Non static and abstarct method can beoverridden.
+
+
+• Golden java rule 
+• ***** Using an upcasted reference if you call an overriden method then you always get 
+  the implementation of subclass.   
