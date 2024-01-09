@@ -1,0 +1,61 @@
+Abstract in java
+
+abstract means incomplete.
+
+abstract methods are the methods which are incomplete that it don't contain any body.
+if one class contain at least one abstract class, class should be abstract.
+using abstract keyword we can make methods and classes as abstract.
+
+it is impossible to create an object of the abstract class.
+
+concrete class and methods are which contain declaration and definition. which means it don't contain any abstract methods or class.
+
+to a concrete class we can inherit abstract, but we must override all the the abstract methods in abstract class to the inheriting class.
+like, 
+
+		abstract class abclass{
+				abstract public void test();
+		}
+
+		public class AbstractMethod extends abclass{
+	
+		@Override
+		public void test() {  //here implementing the abstract class, if we don't do this this makes error.
+		
+		}
+		
+if we choose not to override methods from abstract class, the sub class must be declared as abstract.
+
+in an abstract class, there will be abstract methods, concrete methods.
+
+We can create constructors in abstract class, but as we know in order to execute constructors we need to create objects.
+But objects can't be created for abstract classes. Then when we create object of sub class, it will contain a constructor and that
+constructor contains a super statement of super class, it will execute the constuctor in the abstract class.
+
+abstract methods can't be declared as:
+	static
+	final
+	private
+	
+static non private members of abstarct class can be called using class name
+
+Application of Abstract class:
+1. Abstract acts a blueprint to create concrete class.
+2. By using abstract classes we can ensure there are no missing method implementations
+	the subclass.
+3. Final class cannot be Inherited
+4. final methods can be inherited but cannot be overridden 
+5. final variables can be Inherited but cannot be re-Intialize
+
+
+
+
+
+
+
+
+
+
+
+
+

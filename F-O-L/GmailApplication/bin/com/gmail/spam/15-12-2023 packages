@@ -1,0 +1,61 @@
+Packages
+
+1.packages are just folders or directories
+2.it is used to store our java programs
+3.Searching will become very easy
+4.Better Maintanance
+
+
+Technical Defnition:-
+• A java package is group of classes and interfaces which are related to one single module 
+in the given project.
+
+If didnt use Packages
+
+• Managing Source code is difficult 
+• Creates Naming collisions 
+• Security for classes and its members is not guaranteed
+
+• In java we have predefine packages as well as user define packages.
+• Some examples of predefine packages are - 
+ 1.java.lang package 
+
+Note:-Two use classes of java.lang package we dont need to write any import statement or fully qualified class name
+
+ 2.java.util package 
+ 3.java.awt package 
+ 4.java.swing package etc 
+
+Package naming convention:-
+------------------------------
+• package name is always written in all-lowercase.
+• package names are always written in reverse order of domain
+
+convention 1
+------------------------------
+domain.appname.modulename
+com.gmail.inbox 
+
+convention 2
+------------------------------
+domain.companyname.appname.modulename
+com.google.gmail.inbox
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

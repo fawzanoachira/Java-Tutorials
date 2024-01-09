@@ -1,0 +1,86 @@
+Encapsulation
+--------------------------------------------------------------------------------------------------------
+
+• The process of wrapping the data members(Global variables) and function
+members(methods) into a single unit(class) is called as
+Encapsulation.
+
+
+Examples of Encapsulation: 
+--------------------------- 
+1. protecting bank details from an invalid user to access is an example
+of encapsulation.
+2. keeping a password for mobile to protect data is an example of
+encapsulation.
+3. protecting an online documents by keeping pasword is an example of
+encapsulation.
+4. securing house by keeping lock is an example of encapsulation.
+
+• The main purpose of encapsulation is to achieve security of data 
+
+• Declaring data members as private and grant the access through getter 
+  and setter methods is called encapsulation
+
+Fully Encapsulated class 
+--------------------------- 
+• if all data members of a class are private and there is separate
+methods to access those data, such class is called as Fully
+Encapsulated class.
+class A
+{
+ private int i; 
+ private float f; 
+ private String s; 
+ //methods to access them//
+} 
+
+Partially Encapsulated class 
+------------------------------- 
+• if any data members of a class is non private, such class is called
+as Partially Encapsulated class.
+class A
+{
+ private String name; 
+ public int age; 
+ }
+ 
+No Encapsulated class /Un encapsulated class
+--------------------------------------------
+• if none of data members of a class is private, such class is called 
+as No Encapsulated class. 
+ class A 
+ { 
+ public String name; 
+ public int age; 
+ } 
+ 
+ 
+Advantages Of Encapsulated class : 
+----------------------------------- 
+• Securing the data 
+• We can make our class as write only by writing only setter method.
+• We can make our class as read only by defining only getter method.
+
+
+Dis-advantages Of Encapsulated class : 
+-------------------------------------- 
+• length of the code increases. 
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

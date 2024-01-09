@@ -1,0 +1,25 @@
+Blocks in Java
+
+Blocks are set of statements used to initialize data members(global variables) of the class.
+
+Blocks are different types:-
+
+1. Static Block
+		Like, static{
+				stmnts;
+			  }
+			  
+		1. static blocks executes when class is loaded by class loader. it meant to be initialize the static members of the class.
+		2. static blocks execute once in life cycle of any program. another property is that it executes before main method.
+		3. are also called static initialization block.
+		4. static block gets executed only once per entire program execution
+		
+2. Non Static Block(Instance Block)
+		Like, {
+				stmnts;
+			  }
+		1. instance block will execute whenever object is created
+		2. if there are more than 1 instance blocks it will execute in the sequence order of it written.
+		3. are also called non static / instance initialization block.
+		4. this block get executed whenever objects are created.
+		
