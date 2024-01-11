@@ -1,0 +1,36 @@
+Customized Exception / user defined exception
+---------------------------------------------
+
+When pre-define exceptions does not fulfil our requirement, we will go for 
+user-define exception i.e we can create our exceptions. Such type of 
+exception is called as User define Exceptions (or) Customised Exceptions.
+
+Rules for creating User define Exceptions:- 
+
+• create our Exception class and that class should be or must be 
+  extending either throwable (or) Exception (or) RuntimeException 
+  classes 
+  Preferable to extend RuntimeException 
+• Define constructor whenever requires. 
+• Throw Exception as per our own requirement. 
+class NotEligibleException extends RuntimeException //Ex-1 
+{ 
+ public NotEligibleException(String msg) 
+ { 
+ System.out.println(msg); 
+
+ } 
+} 
+public class User { 
+public static void main(String args[]) { 
+ float percentage=56.5f; 
+ if(percentage<60) 
+ { 
+ throw new NotEligibleException("Not Eligible for drive"); 
+ } 
+ else 
+ { 
+ System.out.println("Register before end of the day"); 
+ } 
+}} 
+
