@@ -1,0 +1,56 @@
+HashSet
+----------
+
+properties:-
+	1. no index
+	2. do not follow insertion order.
+	3. duplicate values can't be add.
+	4. null value can be added
+	5. multiple null values not allowed.
+	6. heterogeneous values can be added.
+	7. underlying data structure is hash table.
+	
+	default capacity of hashset is 16.
+	.75 is the default value of load factor.
+	newcapacity=currentcapacity*2
+	
+	in here new object will create when 75% of current capacity fills rather than full
+	
+when we create hashset, first objects which are added will be converted to hashmap. hashmap is a key value pair
+and all the objects are stored in the key section of hashmap. when we call the hashset, the sored objects in hashmap will be converted
+to hashtable by some conversion technique, and that's where the values are retrieving. that's why there is no insertion order is not preserved.
+
+for conversion,
+	key%capacity equation used and we get the value and it is the index and that index is on hashtable.
+	
+hashset has 5 constructors.
+	will be discuss 4 constructors.
+	
+	1. zero argument
+	2. initial capacity
+	3. initial capacity, load factor
+	4. collection c, convert one collection to another.
+	
+	default capacity will be 16 and load factor will be 0.75.
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
