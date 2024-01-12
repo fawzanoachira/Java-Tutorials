@@ -1,0 +1,18 @@
+Vector
+
+default size of vector will be 10 like arraylist.
+
+new capacity will be currentcapacity*2;
+
+vector has 4 constructors.
+
+properties:-
+
+	1.ArrayList stores Heterogeneous data .
+	2.It is possible to add NULL objects in ArrayList.
+	3.It allows Duplicate objects.
+	4.In ArrayList Insertion Order is preserved i.e the way we
+	  added objects the way it will be printed.
+	5.underlying datastructure is resizable array
+	
+	6.Iterator and ListIterator cursors are used.

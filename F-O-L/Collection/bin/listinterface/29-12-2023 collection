@@ -1,0 +1,76 @@
+Collection
+
+COLLECTION 
+----------------------------------------------------------------------
+• Collection is nothing but a group of objects repesents as single unit.
+• It's main purpose is to store huge amount of data. 
+• It provides multiple API(methods) to store and manipulate data
+• Collection is the root interface of CollectionFramework. 
+• Collection interface is extended by 3 different interfaces
+- collection has a super interface called iterable.
+
+ 1.List<Interface> 
+ 2.Set<Interface> 
+ 3.Queue<Interface> 
+• Learning about collection means learning about classes and its 
+  characteristics. 
+• Different classes of collection are : 
+ 1.ArrayList 
+ 2.LinkedList 
+ 3.Vector 
+• implements List Interface 
+ 4.PriorityQueue 
+ 5.LinkedList 
+• implements Queue interface
+6.Treeset
+7.Hashset
+8.LinkedHashSet
+• implements SetInterface
+
+
+
+Difference b/w list and array
+
+array					list
+------------------------------
+homogeneous data		homo/heterogeneous data
+fixed size				growable
+in built method			in built method
+array is a class		list is a interface
+
+list interface
+---------------
+
+properties
+
+1. list has index
+2. list can store duplicate values
+3. list can store multiple mull values
+4. list preserves insertion order
+
+implementation class
+--------------------
+
+1. ArrayList
+2. vector
+3. LinkedList
+
+
+characteristics to study for every class - 
+• homogeneous or hetrogeneous
+• Null object is possible or not
+• duplicates allowed or not
+• insertion order is preserve or not
+• data structure 
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,67 @@
+List Interface
+------------
+
+List Interface : 
+---------------- 
+• List<Interface>1.2 version
+• List is an Interface which extends Collection Interface
+• List is implemented by 3 different classes
+1.ArrayList
+2.LinkedList
+3.vector
+List follows Index Based process. 
+List allows hetrogeneous Objects. 
+List allows Null objects. 
+
+Useful Methods : 
+---------------- 
+• add(object):Used to add objects
+• addAll(Collection): Used to copy one collection objects into another
+• remove(Object): Used to Removes object
+• remove(Index): Used to Remove the Object at given index
+• set(Index,Object): it replaces the old object with new object at given
+  index
+• get(index): Retrieves the object at given index
+• isEmpty(): check whether Collections empty or not
+• contains(Object): check whether Object is present or not
+• containsAll(Collection): checks whether content of one collection is
+  present in another collection or not.
+• removeAll(Collection): Removes whole objects of collection
+• size(): Provides size of collection(always calculates from 1)
+• Collections.sort(): Sort the collection in ascending order(In case
+  char's as per unicode order)
+• Collections.reverse(): Sort in reverse way
+
+
+ArrayList has three constructors
+--------------------------------
+
+1. zero argument constructor
+2. with int capacity as the parameter
+3. with collection as the parameter.
+
+default capacity of arraylist
+when declare,
+	ArrayList l = new ArrayList();
+	
+	will be 10 until storing 10 values
+	
+but if we add 1 value extra, capapcity will change as (current capacity * 3/2)+1
+and new object will referenced and previous object got dereference and eligible for garbage collection.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

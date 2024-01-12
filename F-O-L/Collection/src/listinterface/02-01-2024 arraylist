@@ -1,0 +1,127 @@
+1.ArrayList : 
+-------------
+• ArrayList is a class which implements List interface
+• characteristics of ArrayList:
+---------------------------------
+1.It is introduced in java 1.2-version.
+2.ArrayList stores Heterogeneous data .
+3.It is possible to add NULL objects in ArrayList.
+4.It allows Duplicate objects.
+5.In ArrayList Insertion Order is preserved i.e the way we
+  added objects the way it will be printed.
+6.underlying datastructure is resizable array
+
+7.Iterator and ListIterator cursors are used.
+
+	List Iterator is the sub interface of iterator.
+
+public class First {
+	public static void main(String[] args) {
+		ArrayList a1=new ArrayList();
+		a1.add("Java"); 
+		a1.add(111); //a1.add(Integer.valueOf(111))
+		a1.add(66.5f); //a1.add(Float.valueOf(66.5f))
+		a1.add('A'); //a1.add(Character,valueOf('A');
+		System.out.println("Collection Objects are : "+a1);
+	}
+}
+Output:
+Collection Objects are : [Java, 111, 66.5, A]
+
+• Arrays are type safe but collections are not type safe
+Ex: int a[]=new int[3];
+a[0]=100; 
+a[1]="java";//CTE 
+Ex: ArrayList a=new ArrayList() 
+a.add("java");
+a.add(100);
+a.add('A');
+
+Generics 
+--------- 
+Since Collections are not type safe i.e programmer can add any types of 
+objects there is no restriction for that so, to overcome this drawback JAVA 
+has given Generics concept where you can create an object of specific type, 
+if we add any other type of object than specified we will get CTE. 
+1. ArrayList<Integer> a1=new ArrayList<>();
+a1.add("java");//CTE 
+a1.add(100); 
+a1.add('A');//CTE 
+2. ArrayList<String> a1=new ArrayList<>();
+a1.add("java"); 
+a1.add(100);//CTE 
+a1.add('A');//CTE 
+3. ArrayList<Character> a1=new ArrayList<>();
+a1.add("java");//CTE 
+a1.add(100);//CTE 
+a1.add('A'); 
+eg:-
+
+
+Cursors 
+-------- 
+• This is the special characteristics given for collection concepts
+• Using cursors we can retrieve the objects in collection one by one
+• they are of 2 types -
+1.Iterator
+2.ListIterator
+
+
+1.Iterator 
+---------- 
+• Iterator is an interface which is used to traverse the list in forward
+direction.
+• Basically it provides the privilige to access the objects without
+using index.
+interface Iterator 
+{ 
+ public boolean hasNext(); 
+ public object next(); 
+ public void remove(); 
+} 
+hasNext(): 
+• It returns true, if there is Object available in collection.
+next(): 
+• It returns current Object and move the cursor to next Object.
+2.ListIterator 
+-------------- 
+• ListIterator is an interface which provides the facility to traverse
+the list in forward as well as backward direction.
+interface ListIterator 
+{ 
+ public boolean hasNext(); 
+ public object next(); 
+ public void remove(); 
+ public boolean hasPrevious(); 
+ public object previous(); 
+ public void add(); 
+} 
+
+
+hasPrevious(): 
+• Returns true, if object is available to iterate from previous 
+direction. 
+previous(): 
+• prints the current object and move the cursor to next object in 
+previous direction. 
+hasNext(): 
+• It returns true, if there is Object available. 
+next(): 
+• It returns current Object and move cursor to next Object.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+LinkedHashSet
+-----------------
+
+properties:-
+	1. insertion order oreserves in linkedhashset
+	2. no index
+	3. duplicates are not allowed
+	4. multiple null values not allowed.
+	5. underlying data structure is singly linked list and hash table.
+	
