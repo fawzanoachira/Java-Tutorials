@@ -1,0 +1,14 @@
+Method overriding
+
+inherit a method from the parent class to child class and change the definition of that method(inside {}) without changing the declaration. this is called method overriding.
+
+@Override can be used in the methods which are over-rided from parent class.
+
+when we put @override on a method compiler compares all the methods in all parent class and check whether there is same declaration is there. if it's there it understand's that method is overrided.
+
+if we declare a method as final, we can inherit it to sub class, but can't override.
+
+if we declare a method as private, we can't inherit the properties, it can only be accessed in corresponding class.
+
+if we declare a method as static, we can't override it by using the annotation override. if we don't use override annotation it hides super class method
+and execute the method created by sub class. which is also called method hiding.

@@ -1,0 +1,5 @@
+Multiple Inheritance
+
+when a sub class inherit a property of two or more classes is called multiple inheritance.
+
+In java, using classes, multiple inheritance is not possible.

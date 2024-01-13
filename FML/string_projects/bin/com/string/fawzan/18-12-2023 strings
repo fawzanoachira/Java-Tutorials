@@ -1,0 +1,81 @@
+String Class
+--------------------------------------------------------------------------------------
+• String value is a group of characters which is written in the double quotes.
+• We can access the characters or perform any operations on the string only by 
+  using the methods of String class.
+• Internally String value is stored as a character Array by the JVM.
+  String str = “hello” ‘h’ ‘e’ ‘l’ ‘l’ ‘o’
+                        0   1   2   3   4
+• In java string is an -
+1. object
+2. datatype
+3. class
+4. group of characters
+
+Methods of String 
+
+•length() : It returns the count of number of characters present in the given String.
+
+•charAt(index) : It returns the character at the given index from the given String.
+
+•indexOf(char) : It returns the index of the given character from the given String. It returns -ve value if the character do not exist.
+
+•indexOf(char,startIndex) : It returns the index of the given character from the given String by starting the search from the given startIndex. 
+
+•equals(string) : It compares characters of given two strings and returns true if they are exactly same else it returns false. 
+
+•equalsIgnoreCase(string) : It compares characters of given two strings by igiorning the case and returns true if they are exactly same else it returns false.
+
+•substring(start, no.of chras) : It creates a String from the given start index with  given no. of characters and returns the String.
+
+.toUpperCase():String 
+• Converts string into uppercase 
+.toLowerCase():String 
+• Converts string into lowercase 
+.startsWith(string):boolean 
+• check whether string is starting with given string or not 
+endsWith(string):boolean 
+• check whether string is ending with given string or not 
+contains(String):boolean 
+• checks whether string is present in given string or not 
+isEmpty():boolean 
+• checks whether string is empty or not 
+
+
+•NOTE
+•length and length()
+•length -> variable used in array
+•length() -> method of String
+String value is group of chars written within double quotes
+* In java String is a class which is used to store group of chars the String object.
+* String class is immediate sub-class of Object class
+* String class implements Serializable, Comparable<String>, CharSequence interfaces
+* String class is final and it cannot be inherited.
+* hashCode() of Object class is overriden in String class which returns an integer value that is 
+generated based on unicode values of every character present in given String
+
+* toString() of Object class is overriden in String class
+which returns the string value present in given string
+object.
+
+* equals() of Object class is overriden in String class
+which compares characters present in given 2 strings
+and returns true if they are same else returns false
+------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

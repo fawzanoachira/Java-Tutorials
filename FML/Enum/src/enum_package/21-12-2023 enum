@@ -1,0 +1,7 @@
+Enum
+
+Enum is atype where constatnts are stored
+
+for accessing it enumName.constant;
+
+values() method returns array of all values in enum.

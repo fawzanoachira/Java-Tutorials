@@ -1,0 +1,89 @@
+String Pat 2 Balance
+
+* String objects are created in special memory area called string pool in heap areaa
+* The String pool consist of two parts 
+1.Constant pool
+2.Non-constant pool
+* String objects can be created in 2 diff ways
+1. By using new keyword
+2. String literals
+* If you create a String object without using new operator then the object will be
+  created in Constant pool.
+* If you create a String object by using new operator then the object will be 
+  created in non-constant pool and non constant pool as well.
+  
+  Note : == operator compares address of given two Objects.
+* Within constant pool duplicates are not allowed.
+* Within non-constant pool duplicates are allowed. 
+* If you create any string object in following format then the resultant string object
+  will be created in constant pool.
+"" + Svar
+Svar + ""
+Svar + Svar
+String class is immutable. Explain **** or Why String objects are immutable
+If you try to re-intialize a string object then, a new object will be created with the new value
+& the reference variable starts pointing to new object leaving old object de-referenced.
+Advantage : If 2 ref. variables are pointing same string object then changes done on the object through one reference
+variable will not effect another reference variable. 
+
+
+Disadvantage : If you reintialize same reference variable for n number
+of times then it will result in creation of multiple
+de-referenced objects which will occupy the memory space
+and may lead to OutofMemoryError.
+
+To overcome the disadvantage of immutable property java developers 
+created two new classes
+1. StringBuffer
+2. StringBuilder
+
+String,StringBuffer,String builder are the immediate subclasses of object class.
+
+Object of StringBuffer and StringBuilder are stored in Non constant Pool.
+
+StringBuffer Class
+-----------------------------------------------------------------------------------------------
+java.lang.Stringbuffer
+  Stringbuffer is a class which is used to store string values
+* StrinBuffer is mutable sequence of characters. 
+* A string buffer is like a String but can be modified without creating any de-referenced objects.
+* StringBuffer is final and cannot be inherited
+* StringBuffer is immediate sub-class of Object class
+* Any modification to StringBuffer can be done only by using the methods of StringBuffer class
+* + (concatenation) operator is not supported by StringBuffer
+* StringBuffer objects can be created only by using new operator.
+* toString() of Object class is overriden in StringBuffer class which returns the string value present  
+  in given string object.
+* StringBuffer is a thread-safe class and safe for use by multiple threads
+	thread-safe means , executing threads one by one, which is one executed first, then the other for using StringBuffer.
+
+StringBuilder Class
+----------------------------------------------------------------------------------------------------------
+* StringBuilder are not safe for use by multiple threads
+
+----------------------------------------------------------------------------------------------------------
+
+When we create string using String str = new String(); ,actually two objects are creating. Normally object will create in ncp, but internally another object is also 
+created in constant pool. and there is a case in here.
+
+as we know in constant pool duplicate objects will not be created. so if we make a constant pool string with the same value of non constant pool value
+, there is de referenced object is there in non constant pool when early we create sting. so this time the constant pool string will point it to the the object created by
+ the non constant pool.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

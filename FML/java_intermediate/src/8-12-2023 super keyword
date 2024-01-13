@@ -1,0 +1,5 @@
+super keyword
+
+1. super keyword is a special in built reference variable which point to the immediate parent class object.
+2. super keywords are used in subclass's methods, in order to access the properties of immediate super class.
+3. super keyword can be used in anywhere in the method.

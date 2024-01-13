@@ -1,0 +1,62 @@
+Java Libraries
+----------------------------------------------------------------------
+
+1.java libraries is a collection or group of .jar files
+2. .jar files contains group of packages
+3. packages contain group of .class files
+
+* java.lang
+
+* It contains all the classes which are essential to write simple 
+* java program or to develop complicated java applications.
+
+* To use classes of java.lang package we need not write any import statement or fully qualified 
+class names.
+
+
+Object class :-
+* Object is super-most class in java
+* Each and every class directly or indirectly inherits from object class
+Object class contain
+1. one zero argument constructor and 11 methods
+* methods of Object class 
+-hashCode() 
+-toString() 
+-equals() 
+{-wait() 
+-wait(long) 
+-wait(long,int) } --> Threads 
+-notify() 
+-notifyAll() 
+-clone() --> Object cloning -getClass() 
+-finalize() --> Garbage collection
+
+hashCode()
+* Returns a hash code value for the object.
+* hash code value of an object is an unique integer value which is generated 
+  by the jvm based on the address of the given object.
+toString()
+* Returns string representation of the Object
+* String representation contains
+*Fully qualified class name
+*@ character
+*hexadecimal value of hashCode
+equals(anotherobject)
+* it compares the hashcode value of given 2 objects and returns true
+if they are same else it returns false
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

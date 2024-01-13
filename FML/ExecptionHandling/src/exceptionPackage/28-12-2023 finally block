@@ -1,0 +1,24 @@
+finally block
+-------------
+
+finally block is executed irrespective of occurance of exceptions.
+* finally block should be written after the catch block.
+
+Exception are of 2 types
+	1. Checked exception
+	2. Unchecked exception
+
+Unchecked exceptions	
+* Exceptions which are not checked by the compiler at the compile time are called as unchecked exceptions.
+* RuntimeException and all of its Subclasses are Unchecked exceptions.
+
+Checked Exceptions
+* Except RuntimeException and its Subclasses all other exceptions are checked exceptions.
+
+Exception propagation:
+Passing the exception object from called method to calling method is
+known as Exception propagation. 
+* Unchecked exceptions will be implicitly propagated by the JVM.
+
+throws keyword
+* throws keyword is used to propagate checked exceptions explicitly by the programmer.

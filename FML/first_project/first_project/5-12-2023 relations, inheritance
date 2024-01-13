@@ -1,0 +1,46 @@
+Relations
+-------------
+
+There are two relations
+	1. Is A relation
+	2. Has a relation
+	
+Is a relation is also inheritance.
+
+Has a relation:
+	if an object have to perform a task, but it should have some properties from other class or object, there should have a relation.
+	it's called has a relation
+	Like, car is a vehicle.
+		  car has a engine.
+		  
+the class where the property is inherited is called base/super/parent class.
+the class where the property is acquired is called sub/derived/child class.
+
+for acquiring inheritance java uses extends keyword.
+
+if we create object of parent class in main function, we only access the properties of parent class only.
+Like, 
+
+/////////////////////////////////////////////
+	class Sample{
+	void test1() {
+		System.out.println("hiiiiiiiiiii");
+	}
+}
+
+public class Relations extends Sample {
+	
+	void test() {
+		System.out.println("sdbfdsbdshb");
+	}
+	
+	public static void main(String[] args) {
+		Sample ob = new Sample();
+		ob.test1(); 
+	}	
+//////////////////////////////////////////////
+
+some cases
+----------
+
+case 1: if we declare a class as final, we can't inherit that class.

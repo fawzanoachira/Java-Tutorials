@@ -1,0 +1,54 @@
+super statement in java
+
+super statement is used to call the constructor of parent class.
+1. super statement creates object of the super class whenever the object of the sub class is created, to inherit the properties and invoke the constructor
+of the super class.
+
+2. we (programmer) can explicitly write the super statement or compiler implicitly write super statement at the compile time.
+
+another case: 
+
+/////////////////////////////
+
+class SuperTest{
+	
+	public SuperTest(int a, int b) {
+		System.out.println(a+b);
+	}
+	
+}
+
+class SuperTest2 extends SuperTest{
+	
+}
+
+public class SuperStatement extends SuperTest{
+	
+	public SuperStatement() {
+		
+	}
+	
+	public static void main(String[] args) {
+		SuperTest t = new SuperTest();
+	}
+}
+
+
+in above example, in super class SuperTest programmer manually created a constructor with parameters.
+
+normally, compiler create a constructor with no parameters at compile time. and that constructor contains a super statement of the immediate super class.
+but in this case if we create a constructor, compiler tries to create a super statement for the super class. but in super class there is no matching constructor instead there is a manually created constructor is there which has parameters.
+so we have to create a parameterized constructor and super statement with parameters to invoke the constructor of super class.
+
+
+super statement and this statement should be in the first line of constructor.
+
+this() vs super()
+
+this() statement invokes constructors of current class.
+super() statement invokes super class's constructors.
+
+this() statements needs no inheritance conditions, but super() statement needs.
+
+this() and super() cannot be used in same constructor.
+

@@ -1,0 +1,32 @@
+String Part 3 Balance
+
+equals() compare characters of two strings and give output according to that.
+
+== operator checks the reference/address part and compare given string's address and give output according to that.
+
+compareTo()
+-----------
+
+compareTo() method checks the ascii values of strings and give output by subtracting the ascii values.
+
+3 ways to compare string:-
+	1.equals();
+	2. ==
+	3.compareTo();
+
+----------------------------
+intern();
+
+In Java, the intern() method is a method of the String class, and it is used to put the string into the pool of strings, where the Java runtime system 
+keeps a pool of strings for reusability. When the intern() method is called on a string, if the pool already contains a string equal to this String 
+object as determined by the equals(Object) method, then the string from the pool is returned. Otherwise, this String object is added to the pool, 
+and a reference to this String object is returned.
+
+
+StringBuilder() balance
+--------------------------
+
+capacity() method returns default size, which is 16, if we put like this StringBuilder s = new StringBuilder();.
+But if we put StringBuilder s = new StringBuilder("hello);, default size will be 16+5 = 21.
+
+StringBulder() have 3 different constructors.

@@ -1,0 +1,51 @@
+different types of inheritances
+	1. single level
+	2. multiple
+	3. multi level
+	4. hierarchical
+	5. hybrid
+	
+1. single level
+	means inherit property of only one class
+	
+/////////////////////////////////////////////	
+	class single{
+	void display() {
+		System.out.println("Single level");
+	}
+}
+
+public class Inheritance extends single  {
+	public static void main(String[] args) {
+		Inheritance s = new Inheritance();
+		
+		s.display();
+	}
+/////////////////////////////////////////////
+
+2. multi-level
+	means inherit a class which is inherited another class.
+
+//////////////////////////////////////////////
+class single{
+	void display() {
+		System.out.println("Single level");
+	}
+}
+
+class multi_level extends single{
+	void display1() {
+		System.out.println("multilevel");
+	}
+}
+
+public class Inheritance extends multi_level  {
+	public static void main(String[] args) {
+		Inheritance s = new Inheritance();
+		
+		s.display();
+		s.display1();
+	}
+
+//////////////////////////////////////////////
+

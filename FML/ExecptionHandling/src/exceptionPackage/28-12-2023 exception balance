@@ -1,0 +1,15 @@
+Exception cases
+--------------
+	
+	-we cant declare try block only
+	-try with multiple catches possible
+	-but if super class is catched first multiple catch is not possible.
+	-which means first sub class exception then last super class exception.
+	-as we know that, object class is the super most class, but we can't store exception in object clss
+		like, catch(Object e) cannot possible.
+	-we can use Throwable class to handle exception.
+	-can't use Exception class after Throwable class is handled exception.
+	-exception must be handled through only the Throwable or it's subclasses.
+	
+	-try and finally can be work without error even there is no catch block.
+	-two finally cannot be possible.
