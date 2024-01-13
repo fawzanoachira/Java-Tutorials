@@ -1,0 +1,17 @@
+Object Class
+
+object class is a super most class in java, which is pre-defined.
+
+every class we create we can inherit the properties of object class directly or indirectly.
+
+
+Why multiple inheritance is not possible in java? Diamond problem
+
+1. as we know, every class inherit the properties of object class(oc).
+
+   if there are two class a,b and a third class c, which is inheriting properties from a and b. when at the compile time compiler get confused, because where should he take the path
+   of oc from a or b. this makes ambiguity in compiler.
+   
+2. to call multiple constructors of multiple super class, we need to write multiple super statements in sub class. it is not supported in java
+
+3. if there are same method with same name in both super class, compiler confuse to call which method. this makes ambiguity.

@@ -1,0 +1,26 @@
+Wrapper classes :
+---------------------------------------------
+• In order to represent primitive datatype as an object we use wrapper classes!
+• For every primitive data type, there is a corresponding wrapper class available in java.
+• Since java is 100% object oriented, we have to represent everything as object
+• Therefore to represent primitive datatype as object we use wrapper classes.
+
+primitive datatype				wrapper class
+---------------------------------------------
+byte							Byte
+boolean							Boolean
+char							Character
+short							Short
+float							Float
+int								Integer
+double							Double
+long							Long
+
+• All wrapper classes are final classes.
+• All wrapper classes are present in java.lang package.
+
+
+Boxing and unboxing
+-------------------
+Coverting primitive datatype to wrapper class/object type is known as boxing. vice versa is known as unboxing.
+boxing can be done by using valueOf() method.

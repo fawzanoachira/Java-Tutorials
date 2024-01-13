@@ -1,0 +1,15 @@
+Interface balance
+
+-after jdk 8 interface can use concrete methods inside.
+-if a method in the interface which not want to over-rided declare it as static
+-default keyword cannot be used in classes.
+-if a method want in the interface which want to over-rided declare it as default.
+-default methods of interface can be accessed by using Object of its implementation class ONLY.
+-static methods of interface can be accessed by using interface name with dot(.) operator.
+-If two interfaces contains static methods with the same name and same arguments then we differentiate them with help of Interface Name.
+-If two interfaces contains default methods with the same name and same arguments then, it should be overridden in the implementation class
+	Like, 	@Override
+			public void test() {
+				InterfaceJdk.super.test();
+				Sample1.super.test();
+			}

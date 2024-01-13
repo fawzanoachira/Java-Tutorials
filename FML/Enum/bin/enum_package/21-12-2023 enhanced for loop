@@ -1,0 +1,9 @@
+Enhanced for loop
+
+this loop is used to print values in an array
+
+for(Datatype variable: arrayName){
+	SOP(variable);
+	}
+	
+	
