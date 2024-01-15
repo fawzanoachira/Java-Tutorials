@@ -1,0 +1,47 @@
+there is 2 interfaces in treeset
+	1. comparable
+	2. comparator
+	
+in treeset internally comparable interface is inheriting and sorting is done by this interface.
+
+if we want to do customized sorting or external sorting we use comparator interface.
+
+we can use comparable interface for this purpose. but that interface is also done internally. 
+
+
+
+comparable interface					comparator interface
+1.it is present java.lang package		1.it is present in java.util package
+
+2.it is not mandatory to import			2.it is mandatory to import
+	comparable interface
+
+3. Comparable interface contains 
+	only one abstract method 
+	compareTo(Object o)					3.it contains two abstract methods 
+											1.compare(Object o, Object 01), equals(Obj o)
+
+4.comparable interface is used 
+	to perform default natural 
+	sorting and customized sorting
+
+ 										4. it is only used for customized sorting
+ 										
+ 										
+ 									
+How to use Comparable interface
+--> create a class that implements comparable interface
+-->overrride all the abstract methods present in comparable interface
+-->change the defnition according to users specification
+-->create an object of implementation class
+
+
+for comparison
+	1. if values are primitive type like int , double etc. we can compare those by using if else statements.
+	2. if values are in wrapper class we can compare it by using the method compareTo().
+		examples are shown in program MyFirstSortingProg.java
+
+
+
+
+
