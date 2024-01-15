@@ -1,0 +1,19 @@
+TreeSet
+---------
+
+Properties
+	1. underlying dataset is binary search tree.
+		binary search tree contain nodes and links, which each parent node contain maximum two child nodes.
+		NOTE: it is used to store data, object or value
+		links are used establish relationship b/w two nodes.
+	2. not have index.
+	3. insertion order is not preserving.
+	4. internally sorting is working.
+	5. null is not allowed.
+	6. duplicate values are not allowed. exception will throw.
+	7. heterogeneous data cannot be stored.
+	8. first data inserted in treeset is taken as the default generic of treeset.
+	9. if data is string sorting execute like alphabetical order.
+	10. if data is character sorting occur like ascii value order.
+	
+	Lexicographical order
