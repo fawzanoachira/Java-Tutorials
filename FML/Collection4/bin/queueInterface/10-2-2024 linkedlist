@@ -1,0 +1,53 @@
+LinkedList 
+--------------
+
+
+	-underlying datastructure is doubly linked list.
+	-index is there
+	-duplicare values are allowable
+	-null and multiple null values are support
+	-insertion order preserves
+	-store heterogeneous data
+	
+we can use iterator and listiterator for linkedlist.
+when using listiterator alone for reversing we need to specify the index.
+
+poll() method
+---------------
+
+using poll method retrieve head element and then removes it. if we give it in a printing statment 
+we can see which element is removed.
+
+if linked list contain no elements and invoked poll, it return null.
+
+remove() method
+----------------
+
+using remove method retrieve head element and then removes it. if we give it in a printing statment 
+we can see which element is removed.
+
+if linked list contain no elements and invoked remove, it return an exception called NoSuchElementException.
+
+internally remove() invokes removeFirst().
+
+peek()
+------
+
+to retrieve first element/head element.
+if linked list contain no elements and invoked peek, it return null.
+
+element()
+--------
+to retrieve first element/head element.
+if linked list contain no elements and invoked element, it return an exception called NoSuchElementException.
+
+
+
+
+
+
+
+
+
+
+
