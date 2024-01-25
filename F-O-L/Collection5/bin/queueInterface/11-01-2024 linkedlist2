@@ -1,0 +1,9 @@
+LinkedList2
+-----------
+
+linkedlist have no default capacity. capacity will be as value added.
+
+there are two constructors for lonked list.
+	1. zero argument
+	2. collection c
+	

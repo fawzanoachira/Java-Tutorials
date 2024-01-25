@@ -1,0 +1,2 @@
+if we call collections.sort on a list, the stored objects on those list or the class which object created is 
+implements comparable interface it internally calling compareTo() method.

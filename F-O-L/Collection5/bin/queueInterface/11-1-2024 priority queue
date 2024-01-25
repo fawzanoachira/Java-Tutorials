@@ -1,0 +1,13 @@
+PriorityQueue
+-------------
+
+underlying datastructure is priority heap
+	priority heap is binary search tree with two child node is striclty needed.
+
+	properties:
+	1. no index
+	2. insertion order is not preserving
+	3. duplicate values are allowed
+	4. null values invoke NullPointerException.
+	5. heterogeneous values invokes ClassCastException
+	
