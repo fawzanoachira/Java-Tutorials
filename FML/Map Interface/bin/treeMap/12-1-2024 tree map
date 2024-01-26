@@ -1,0 +1,14 @@
+TreeMap
+-------
+
+Properties:-
+	1. insertion order is not preserving
+	2. internal sorting is there.
+	3. duplicate keys not allowed, but replaced
+	4. null invoke NullPointerException
+	5. heterogeneous key not allowed, but values can.
+	
+Constructors:
+	1. zero
+	2. Comparator
+	3. Map

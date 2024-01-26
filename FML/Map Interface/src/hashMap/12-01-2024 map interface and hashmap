@@ -1,0 +1,46 @@
+Map Interface
+-------------
+
+Map Interface is an inteface like Set interface. But it is not a part of collection. it is a seperate interface.
+in set interface values are stored in direct Objects. But in map interface values are stores as key value pair.
+
+
+Hash Map
+--------
+
+value adding is done by:-
+	put(object key, object value)
+
+key value pair is called single entry
+
+properties:
+	1. null key is allowed
+	2. multiple null key is overriden with previous null key
+	3. duplicate key is is also iverwritten by previous key and value.
+	4. insertion order is not preserving.
+	5. no index
+	6. multiple null values are allowed.
+	7. duplicate values are allowed.
+	8. heterogeneous values and keys are allowed.
+	
+Constructors:
+	initial capacity=16
+	load factor = 0.75
+	
+	1. zero argument
+	2. initial capacity
+	3. initial capacity, load factor
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
