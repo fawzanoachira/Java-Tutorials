@@ -1,0 +1,22 @@
+Linked Hash Map
+---------------
+
+properties:-
+	1. duplicate keys are overwritten
+	2. insertion order preserves
+	3. duplicate values are allowed
+	4. null key allowed
+	5. multiple null key is overwritten
+	6. single and multiple null values are allowed.
+	
+	underlying data structure singly linked list and hashmap.
+	
+Constructors:
+	initial capacity=16
+	load factor = 0.75
+	
+	1. zero argument
+	2. initial capacity
+	3. initial capacity, load factor
+	4. initial capacity, load factor, access order
+	
