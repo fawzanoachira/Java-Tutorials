@@ -1,0 +1,8 @@
+Functional Interface
+--------------------
+
+functional interface are the interface with only 1 abstract and optional multiple concrete methods.
+
+An Interface which contains not abstract methods or concrete methods even no menbers is called Marker Interface.
+
+	eg: Serializable Interface, Clonable Interface.
