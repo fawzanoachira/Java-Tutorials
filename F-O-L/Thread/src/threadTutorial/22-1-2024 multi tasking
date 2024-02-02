@@ -1,0 +1,117 @@
+Multi Tasking
+------------
+
+multi tasking is the process of doing multiple tasks at same time.
+
+two different types of multi tasking are:
+	1. process based
+		multiple tasks at same time, but each tasks are not depended to one another.
+	2. thread based
+		process of executing multiple tasks at the same time, but depended on other.
+		
+thread are the small part of program which have its own memory and cpu time. used to do multiple tasks.
+
+Java is a multi threaded programming language
+
+	when a simple java pgm executes internally jvm executes 3 threads.
+		1. main thread: start the execution of a pgm from the main method.
+		2. garbage collector: used to remove unwanted objecys from heap area.
+		3. thrad sceduler: decide which thread to be executes first and which thread to be in waiting state.
+
+2 ways to create thread
+	1. by extending from thread class
+	2. by implementing from runnable interface 
+	
+By extending thread class
+-------------------------
+
+1. define the task
+------------------
+
+1. create a class that will extend from Thread class
+2. override the run method present in thread class to define the task that should be executed by the thread.
+
+2. to start the execution
+-------------------------
+1. create an object of the sub class
+2. use the sub class reference to call the start() of thread class.
+
+By implementing from runnable interface
+---------------------------------------
+
+1. define the task
+------------------
+1. create a class that will extend from Thread class
+2. override the run method present in runnable interface to define the task that should be executed by the thread.
+
+2. to start the execution
+------------------------
+
+1. create object of the implementation class
+2. create object of thread class and pass the implementation class object reference to constructor of the thread class
+3. use the thread class object refernce to invoke the start method.
+
+When to use?
+------------
+
+By implementing runnable interface is most preferable way.
+it can extend another classes and implements another interface.
+
+if a class already extending from some other super class then it is not possible to extend the thread class as it leads to multiple inheritance and
+hence thread task is defined by implementing runnable interface.
+
+if we want to extend from any other class we can use runnable interface.
+
+Thread Life Cycle
+-----------------
+Depending on the different phases thread will be any of these states
+
+1. New
+-----------------
+Thread n = new Thread();
+when we create an object of thread
+
+2. Ready
+-----------------
+when invoke run() method by using start(), but before thread scheduler picks that thread execution
+
+3. Running
+-----------------
+when thread scheduler picks thread for execution
+
+4. Blocked
+-----------------
+if the running thread goes to sleeping state/wait state
+
+5. Terminated or dead
+----------------------
+when execution of run method is completed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
