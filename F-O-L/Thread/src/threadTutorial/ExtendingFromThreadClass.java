@@ -16,6 +16,13 @@ public class ExtendingFromThreadClass{
 		ExtendingFromThreadClassFile e = new ExtendingFromThreadClassFile();
 		System.out.println("thread going to start");
 		e.start();
+//		System.out.println("a");
+//		System.out.println("a");
+//		System.out.println("a");
+//		System.out.println("a");
+//		System.out.println("a");
+//		System.out.println("a");
+//		System.out.println("a");     when these stmts are given race condition occuring.
 		System.out.println("printing stmnt which do not waited for previous step");
 	}
 }

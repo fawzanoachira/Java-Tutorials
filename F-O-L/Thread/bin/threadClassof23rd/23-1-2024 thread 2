@@ -1,0 +1,19 @@
+Thread 2
+---------
+
+Race condition
+-------------
+if multiple thread is trying is to access same object at the same time race condition occurs.
+race condition always leads to inconsistent data.
+
+how to avoid race condition
+1. thread synchronization
+--------------------------------
+it is the process of executing threads in the sequential order where one thread will execute only after the other thread finish execution
+
+2 ways:-
+	1. synchronized methods
+		are the methods which use synchronized keyword on methods.
+	2. synchronized blocks
+	
+	
