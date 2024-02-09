@@ -1,8 +1,8 @@
 package bookingApp;
 
 class BookTheatreSeat{
-	int totalSeats=20;
-	void book_seats(int seat) {
+	static int totalSeats=20;
+	synchronized static void book_seats(int seat) {
 		if(totalSeats>=seat) {
 			if(seat<totalSeats) {
 				System.out.println("seats booked successfully");
@@ -51,9 +51,16 @@ public class MovieBookingApp {
 	public static void main(String[] args) {
 		BookTheatreSeat bts = new BookTheatreSeat();
 		Thread1 th1 = new Thread1(bts, 7);
-		Thread2 th2 = new Thread2(bts, 8);
-		
 		th1.start();
+		Thread2 th2 = new Thread2(bts, 8);
 		th2.start();
+		// Thread2 th3 = new Thread2(bts, 6);
+		// th3.start();
+
+		BookTheatreSeat bts1 = new BookTheatreSeat();
+		Thread1 th3 = new Thread1(bts1, 5);
+		th3.start();
+		Thread2 th4 = new Thread2(bts1, 1);
+		th4.start();
 	}
 }
