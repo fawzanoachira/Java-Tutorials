@@ -1,0 +1,30 @@
+Cooperation Thread Synchronization
+----------------------------------
+
+inter thread communication (inter thread communication)
+------------------------------------------------------
+
+methods in Object Class
+	1.toString()
+	2.equals()
+	3.hashcode()
+	4.wait()
+	5.wait(long)
+	6.wait(long, int)
+	7.notify()
+	8.notifyall()
+	9.clone()
+	10.getClass()
+	11.finalize()
+	
+	inter thread communication can be achieved by following object class methods:-
+		1. wait()
+		2. notify()
+		3. notifyAll()
+		
+	one thread can perform single task at one time, not multiple task.
+	
+	Constructors in thread class
+	----------------------------
+	
+	
