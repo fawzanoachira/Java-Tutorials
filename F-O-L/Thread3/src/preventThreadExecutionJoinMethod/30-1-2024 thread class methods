@@ -1,0 +1,32 @@
+thread class methods
+--------------------
+
+sleep()
+-------
+method uses to wait a thread for a certain amount of time.
+automatically invokes after provided time period
+needs to handle exception
+
+yield()
+-------
+it will stop the currently executiong thread and allows other thread with same priority or higher priority to execute.
+automatically invoked by thread scheduler
+no need of exception handling
+
+eg:- working
+------------
+
+java 5 --> internally it uses sleep method
+java 6 --> it it provides a hint to thread scheduler 
+
+join()
+------
+
+if a thread wants to wait for another to complete its task we should use join method.
+automatically invokes after the completion of another thread task.
+need to handle the exception
+
+
+
+
+

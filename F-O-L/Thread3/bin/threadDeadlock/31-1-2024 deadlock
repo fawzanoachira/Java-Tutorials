@@ -1,0 +1,8 @@
+Deadlock
+-----------
+
+A deadlock is a situation where a set of processes are blocked because each process is holding a resource 
+and waiting for another resource acquired by some other process.
+
+for avoiding deadlock
+	1. remove synchronixed keyword from any of the method.

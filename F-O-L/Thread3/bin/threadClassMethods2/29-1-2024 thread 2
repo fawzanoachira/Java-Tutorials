@@ -1,0 +1,44 @@
+thread class methods 2
+----------------------
+
+Daemon thread
+-------------
+
+daemon threads are threads which executes under the background of an another thread.
+daemon threads are used to provide service for an another thread.
+eg: garbage collector, finalizer, signal dispatchers
+
+cases:-
+	1. had to set a thread daemon, we have to done it before starting the thread.
+	2. can't set main thread as daemon.
+	3. life of daemon thread depends on another thread
+	4. daemon thread can inherits properties from its parent thread.
+	
+jvm's role on daemon thread
+---------------------------
+
+jvm is not depended on daemon threads. if any other thread active jvm will not shutdown any threads. but if there is a daemon thread alive after any other threads daemon thread forcefully 
+shutdown any daemon thread is active.
+
+
+priorities on thread
+--------------------
+jvm provides priorities to each thread and according to this jvm allocate processer for execution.
+priorities range will be 10 -> 1
+
+1 --> MIN_PRIORITY
+5 --> NORM_PRIORITY
+10 --> MAX_PRIORITY
+
+
+
+
+
+
+
+
+
+
+
+
+
