@@ -1,0 +1,49 @@
+thread class methods
+--------------------
+
+
+Thread interrupt
+----------------
+
+it is used to interrupt an executing thread
+
+	interruot()
+	-----------
+	it will only works when the thread is in the wait state() or in sleeping state().
+	
+	if a thread is not in sleeping or waiting state then calling an interrupt methods(), will perform normal behaviour...it is no use
+
+	isInteruupted()
+	---------------
+	
+	to check whether the thread is interrupted.
+	
+	interrupted()
+	-------------
+	
+	change the current thread interruption to false, which makes interruption flag of current thread will be change to false.
+	which gives that , it is making thread as no interrupted. 
+
+	method checks whether the thread is interrupted or not. if interrupted, the method will clear the state from true to false
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
