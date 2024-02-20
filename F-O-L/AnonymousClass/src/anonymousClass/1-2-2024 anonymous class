@@ -1,0 +1,14 @@
+An anonymous inner class in Java is a class without a name that is defined and instantiated on the fly, 
+typically for a one- time use. 
+
+It is declared and instantiated simultaneously, and it is often used to override methods or provide implementations for interfaces.
+
+Key points about anonymous inner classes:
+
+No Class Name: Anonymous inner classes do not have a name; they are defined and instantiated in a single expression.
+
+Object Creation: The class is instantiated at the point of creation and can be used immediately.
+
+Overriding Methods: Anonymous inner classes are often used for providing implementations for interfaces or abstract classes by overriding their methods.
+
+One-Time Use: They are typically used for one-time use scenarios where you don't need to create a separate class.
