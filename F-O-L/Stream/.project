@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>Thread2</name>
+	<name>Stream</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -16,7 +16,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1708583965252</id>
+			<id>1708583965250</id>
 			<name></name>
 			<type>30</type>
 			<matcher>

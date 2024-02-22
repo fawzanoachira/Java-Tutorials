@@ -1,0 +1,13 @@
+Stream
+------
+
+are used to process the collections.
+
+	filter()
+	--------
+	this methods filter the values in stream and store it in another collection.
+	
+
+	map()
+	------
+	this method is used to modify the values in collections.

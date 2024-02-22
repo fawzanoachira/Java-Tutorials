@@ -1,0 +1,37 @@
+classification of stream
+------------------------
+
+Non terminal methods
+--------------------
+
+non terminal stream operation is an intermediate operation which creates a new stream by filtering or transforming 
+the original stream
+
+	1.filter()
+	2.map()
+	3.flatmap()
+	4.distinct()
+	5.limit()
+	
+terminal method
+---------------
+
+terminal stream operation is an operation that returns the result
+
+	1.collect()
+	2.forEach()
+	3.count()
+	4.min()
+	5.max()
+	6.reduce()
+	7.toArray()
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
