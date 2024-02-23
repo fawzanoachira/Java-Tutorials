@@ -1,0 +1,10 @@
+Streams for file handling
+-------------------------
+
+Streams classified into two
+	1. byte stream
+		a. input stream
+		b. output stream
+	2. character stream
+		a. reader
+		b. writer
