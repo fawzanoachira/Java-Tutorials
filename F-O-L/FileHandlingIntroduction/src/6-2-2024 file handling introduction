@@ -1,0 +1,49 @@
+File handling introduction
+--------------------------
+
+Java I/O:
+
+	Provides a set of libraries to perform input/output operations
+	Defines an I/O channel as a stream
+
+Stream:
+	I/O represents an input source or an output destination
+	Supports sequential flow of data
+
+	Source:
+		Initiates the flow of data
+		Also called an input stream
+
+	Sink/destinATION:
+		Terminates the flow of data
+		Also called an output stream
+	
+	Closed when the work is finished
+	
+-----------------------------------------
+
+Supported types of data in streams:
+	ByteStream:
+		Handled by the input streams and output streams
+		Uses the InputStream and the OutputStream classes
+		Used to read and write the raw bytes, such as:
+			-Image files
+			-Audio files
+			-Objects
+	Character Stream:
+		-Handled by the readers and writers
+		-Uses the Reader and the Writer classes
+		
+		Standard Stream:
+			*System. In,System.out, System.err	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
