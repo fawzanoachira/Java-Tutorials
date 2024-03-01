@@ -1,0 +1,22 @@
+BufferedOutputStream
+--------------------
+
+The buffered output stream class of the java.io package is used with other output streams to write the data(in bytes) more efficiently
+
+Working of Buffered Output stream
+---------------------------------
+
+The BufferedOutputStream maintains an internal buffer of 8192 bytes
+
+During the write operation the bytes are written to the internal buffer instead of the disk. Once the buffer is filled or the stream is 
+closed the whole buffer is written to the disk.
+Hence the number of communication to the disk is reduced this is why writing bytes is faster using buffered output stream
+
+Buffered input stream
+---------------------
+
+DataOutputStream
+----------------
+
+It helps us to work with primitive datatypes
+it is a class present in java.io package

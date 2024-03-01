@@ -1,0 +1,9 @@
+Serialization
+-------------
+
+converting object to byte stream is called seriealiation.
+
+De serialization
+----------------
+
+converting byte stream to object is called seriealiation.
