@@ -29,7 +29,8 @@ class Student implements Serializable{
 	private static final long serialVersionUID = 1L;
 	int id;
 	String name;
-	int age;
+	/*transient*/ int age; // transient is a keyword which is used to not serialize the data members.
+						   // if it's not serializable we cant store objects in file.	
 	public Student(int id, String name, int age) {
 		super();
 		this.id = id;
