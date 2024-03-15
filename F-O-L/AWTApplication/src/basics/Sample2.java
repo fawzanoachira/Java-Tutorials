@@ -1,6 +1,7 @@
 package basics;
 
 import java.awt.Color;
+import java.awt.Font;
 import java.awt.Frame;
 import java.awt.Graphics;
 
@@ -23,6 +24,12 @@ public class Sample2 extends Frame{
 		g.drawRect(100, 100, 40, 60);
 		g.fillRect(100, 100, 40, 60);
 		g.drawString("hello", 100, 100);
+		
+		//Font
+		Font font = new Font("serif", Font.ITALIC, 40);
+		g.setFont(font);
+		g.setColor(Color.RED);
+		g.drawString("hello",100, 100);
 	}
 
 	public static void main(String[] args) {
