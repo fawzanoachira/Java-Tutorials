@@ -1,0 +1,28 @@
+Frame
+-----
+
+	constructors of frame
+	---------------------
+	1.public Frame(); ->it wwill create frame without title
+	2.public frame (String title)--->it will create a frame with title
+	
+	methods of frame class
+	----------------------
+	1. public void setVisible(boolean b)
+	2.public void setSize(int width, in height)
+	3.public void setTitle(string title)
+	
+	There are two ways to create frames
+	-----------------------------------
+	1.by creating the object of frame class
+	2.by extending frame class
+
+java.awt.color
+---------------
+	Constructors
+	-----------
+	public Color(int r, int g, int b);
+	it will create a rgb color with specified red green blue (0-255) or (0.0-1.0)
+
+
+
