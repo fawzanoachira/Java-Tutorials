@@ -1,26 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>AWTApplication</name>
+	<name>LayoutManager</name>
 	<comment></comment>
 	<projects>
 	</projects>
 	<buildSpec>
-		<buildCommand>
-			<name>org.eclipse.jdt.core.javabuilder</name>
-			<arguments>
-			</arguments>
-		</buildCommand>
 	</buildSpec>
 	<natures>
-		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
 	<filteredResources>
 		<filter>
-<<<<<<< Updated upstream
-			<id>1710573911998</id>
-=======
-			<id>1711426734414</id>
->>>>>>> Stashed changes
+			<id>1711426734420</id>
 			<name></name>
 			<type>30</type>
 			<matcher>

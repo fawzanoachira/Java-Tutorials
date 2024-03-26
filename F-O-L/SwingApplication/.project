@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>AWTApplication</name>
+	<name>SwingApplication</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -16,11 +16,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-<<<<<<< Updated upstream
-			<id>1710573911998</id>
-=======
-			<id>1711426734414</id>
->>>>>>> Stashed changes
+			<id>1711426734423</id>
 			<name></name>
 			<type>30</type>
 			<matcher>
