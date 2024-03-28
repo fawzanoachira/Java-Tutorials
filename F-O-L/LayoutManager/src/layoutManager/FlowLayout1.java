@@ -1,18 +1,17 @@
 package layoutManager;
 
-import java.awt.BorderLayout;
 import java.awt.Button;
+import java.awt.FlowLayout;
 import java.awt.Frame;
-import java.awt.GridLayout;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
-public class GridLayout1 extends Frame{
+public class FlowLayout1 extends Frame{
 	
-	public GridLayout1() {
+	public FlowLayout1() {
 		this.setVisible(true);
 		this.setSize(400,400);
-		this.setTitle("Grid Layout Demo");
+		this.setTitle("Flow Layout Demo");
 		
 		this.addWindowListener(new WindowAdapter() {
 		@Override
@@ -32,12 +31,12 @@ public class GridLayout1 extends Frame{
 		
 		add(b1);add(b2);add(b3);add(b4);add(b5);add(b6);add(b7);add(b8);add(b9);
 		
-//		this.setLayout(new GridLayout());
-//		this.setLayout(new GridLayout(3,3));
-		this.setLayout(new GridLayout(3,3,20,20));
+//		this.setLayout(new FlowLayout());
+//		this.setLayout(new FlowLayout(FlowLayout.RIGHT));
+		this.setLayout(new FlowLayout(FlowLayout.CENTER,50,50));
 	}
 	
 	public static void main(String[] args) {
-		GridLayout1 gridLayout1 = new GridLayout1();
+		FlowLayout1 flowLayout1 = new FlowLayout1();
 	}
 }
