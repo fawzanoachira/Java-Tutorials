@@ -10,7 +10,6 @@ public class Demo extends JFrame{
 	
 	public Demo() {
 		this.setVisible(true);
-		this.setSize(400,400);
 		this.setTitle("SwingExample");
 		this.setLayout(null);
 		
@@ -19,16 +18,31 @@ public class Demo extends JFrame{
 		this.add(b);
 		
 		JLabel j1 = new JLabel("First Name: ");
-		j1.setBounds(20,40,100,70);
+		j1.setBounds(20,50,100,20);
 		this.add(j1);
 		
+		JLabel j2 = new JLabel("Last Name: ");
+		j2.setBounds(20,80,100,20);
+		this.add(j2);
+		
+		JLabel j3 = new JLabel("Address: ");
+		j3.setBounds(20,110,100,20);
+		this.add(j3);
+		
 		JTextField tf1 = new JTextField();
-		tf1.setBounds(40,40,100,30);
+		tf1.setBounds(100,50,100,20);
 		this.add(tf1);
 		
-		JLabel j2 = new JLabel("Last Name: ");
-		j2.setBounds(20,60,100,70);
-		this.add(j2);
+		JTextField tf2 = new JTextField();
+		tf2.setBounds(100,80,100,20);
+		this.add(tf2);
+		
+		JTextArea jt = new JTextArea();
+		jt.setBounds(100,110,200,100);
+		this.add(jt);
+		
+		this.setSize(500,500);
+		
 	}
 	public static void main(String[] args) {
 		new Demo();
