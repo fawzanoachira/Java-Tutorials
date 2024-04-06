@@ -1,0 +1,8 @@
+inet4Address
+-------------
+
+methods:-
+	1. getByName()--> it returns the instance of inet4Address containing localhost ip and name
+	2. getHostName()--> it returns the hostname of the ip address.
+	3. getHostAddress()--> it returns the ip address in the string format
+	4. getLocalHost()--> it returns the instance of inet4Address containing localhostname and address.
