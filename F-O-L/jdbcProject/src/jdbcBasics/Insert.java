@@ -1,10 +1,11 @@
+package jdbcBasics;
 import java.sql.Connection;
 import java.sql.Driver;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class Main {
+public class Insert {
 	public static void main(String[] args) throws SQLException, ClassNotFoundException {
 		/*
 		 * what are the 5 steps to achieve jdbc
