@@ -1,4 +1,5 @@
 package jdbcBasics;
+
 import java.sql.Connection;
 import java.sql.Driver;
 import java.sql.DriverManager;
@@ -28,9 +29,12 @@ public class Insert {
 		Driver cj = new com.mysql.cj.jdbc.Driver(); // loading the driver
 		DriverManager.registerDriver(cj); // registering the driver
 
-		// Class.forName("com.mysql.cj.jdbc.Driver"); // Another step of registering and loading the driver in single line
+		// Class.forName("com.mysql.cj.jdbc.Driver");
 
-		Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/notebook", "root",
+		// Another step of registering and
+		// loading the driver in single line
+
+		Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/notebook", "username",
 				"password");
 
 		String query = "insert into persondetails values(2,'fawzan2','23')";

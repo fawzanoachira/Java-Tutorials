@@ -1,4 +1,5 @@
 package jdbcBasics;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -8,7 +9,7 @@ public class Delete {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         Class.forName("com.mysql.cj.jdbc.Driver");
 
-        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost/notebook", "root", "icfoss007");
+        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost/notebook", "username", "password");
 
         Statement statement = connection.createStatement();
         String query = "delete from persondetails where personid=2";

@@ -9,7 +9,7 @@ public class Insert {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         Class.forName("com.mysql.cj.jdbc.Driver");
 
-        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost/notebook", "root", "icfoss007");
+        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost/notebook", "username", "password");
 
         PreparedStatement statement = connection.prepareStatement("insert into persondetails values(2,'fawezan','25')");
         boolean execute = statement.execute();

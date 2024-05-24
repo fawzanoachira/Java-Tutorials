@@ -1,4 +1,5 @@
 package jdbcBasics;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -11,8 +12,8 @@ public class Update {
         Driver driver = new com.mysql.cj.jdbc.Driver();
         DriverManager.registerDriver(driver);
 
-        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/notebook", "root",
-                "icfoss007");
+        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/notebook", "username",
+                "password");
 
         Statement statement = connection.createStatement();
 

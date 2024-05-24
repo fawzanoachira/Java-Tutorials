@@ -1,4 +1,5 @@
 package jdbcBasics;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -9,8 +10,11 @@ public class Fetch {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         Class.forName("com.mysql.cj.jdbc.Driver");
 
-        // Connection connection = DriverManager.getConnection("jdbc:mysql://localhost/notebook", "root", "icfoss007");
-        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost/notebook?user=root&&password=icfoss007");
+        // Connection connection =
+        // DriverManager.getConnection("jdbc:mysql://localhost/notebook", "root",
+        // "icfoss007");
+        Connection connection = DriverManager
+                .getConnection("jdbc:mysql://localhost/notebook?user=username&&password=yourpassword");
 
         Statement statement = connection.createStatement();
         String query = "select * from persondetails";
@@ -18,7 +22,7 @@ public class Fetch {
         ResultSet executeQuery = statement.executeQuery(query);
 
         while (executeQuery.next()) {
-            System.out.println(executeQuery.getInt(1)+" "+executeQuery.getString(2)+" "+executeQuery.getInt(3));
+            System.out.println(executeQuery.getInt(1) + " " + executeQuery.getString(2) + " " + executeQuery.getInt(3));
         }
 
         connection.close();
